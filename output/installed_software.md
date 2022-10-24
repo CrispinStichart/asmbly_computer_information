@@ -1,4 +1,6 @@
-# Installed Software## Laser Blue| name | version | publisher |
+# Installed Software
+## Laser Blue
+| name | version | publisher |
 |  --- |  --- |  --- | 
 | Corel Graphics - Windows Shell Extension 32 Bit Keys | 21.0.581 | Corel Corporation |
 | Corel Graphics - Windows Shell Extension 64 Bit Keys | 21.0.582 | Corel Corporation |
@@ -6,7 +8,9 @@
 | Mozilla Firefox (x64 en-US) | 102.0 | Mozilla |
 | Mozilla Maintenance Service | 72.0.1 | Mozilla |
 | LightBurn version 1.0.04 | 1.0.04 | None |
-| GIMP 2.10.14 | 2.10.14 | The GIMP Team |## Laser Dorian| name | version | publisher |
+| GIMP 2.10.14 | 2.10.14 | The GIMP Team |
+## Laser Dorian
+| name | version | publisher |
 |  --- |  --- |  --- | 
 | Dell SupportAssist | 3.11.4.29 | Dell Inc. |
 | Dell SupportAssist OS Recovery Plugin for Dell Update | 5.5.1.16143 | Dell Inc. |
@@ -16,7 +20,9 @@
 | 7-Zip 22.01 (x64) | 22.01 | Igor Pavlov |
 | Vulkan Run Time Libraries 1.0.26.0 | 1.0.26.0 | LunarG, Inc. |
 | LightBurn version 1.2.01 | 1.2.01 | None |
-| Windows Driver Package - Provider (USBCAMERA) UsbCamera  (03/16/2018 1.10.42.344) | 03/16/2018 1.10.42.344 | Provider |## Laser Pearl| name | version | publisher |
+| Windows Driver Package - Provider (USBCAMERA) UsbCamera  (03/16/2018 1.10.42.344) | 03/16/2018 1.10.42.344 | Provider |
+## Laser Pearl
+| name | version | publisher |
 |  --- |  --- |  --- | 
 | CorelDRAW Standard 2021 - Writing Tools | 23.0 |  Corel Corporation |
 | Adobe Acrobat DC (64-bit) | 22.002.20212 | Adobe |
@@ -38,7 +44,9 @@
 | Corel Update Manager | 2.15.656 | Corel corporation |
 | LightBurn version 1.0.05 | 1.0.05 | None |
 | PuTTY release 0.76 (64-bit) | 0.76.0.0 | Simon Tatham |
-| Snagit 2018 | 18.2.6 | TechSmith Corporation |## Laser Tarkin| name | version | publisher |
+| Snagit 2018 | 18.2.6 | TechSmith Corporation |
+## Laser Tarkin
+| name | version | publisher |
 |  --- |  --- |  --- | 
 | blender | 2.93.6 | Blender Foundation |
 | 7-Zip 21.06 (x64) | 21.06 | Igor Pavlov |
@@ -48,7 +56,9 @@
 | Windows Driver Package - Saleae LLC (WinUSB) USB  (01/27/2021 6.0.6000.16389) | 01/27/2021 6.0.6000.16389 | Saleae LLC |
 | PuTTY release 0.76 (64-bit) | 0.76.0.0 | Simon Tatham |
 | GIMP 2.10.28 | 2.10.28 | The GIMP Team |
-| VCarve Pro Trial Edition 11.0 | 11.0 | Vectric |## Left Common Room| name | version | publisher |
+| VCarve Pro Trial Edition 11.0 | 11.0 | Vectric |
+## Left Common Room
+| name | version | publisher |
 |  --- |  --- |  --- | 
 | CorelDRAW Graphics Suite 2021 - Writing Tools (x64) | 23.2 |  Corel Corporation |
 | Windows Driver Package - Adafruit Industries LLC (usbser) Ports  (02/25/2016 6.2.2600.0) | 02/25/2016 6.2.2600.0 | Adafruit Industries LLC |

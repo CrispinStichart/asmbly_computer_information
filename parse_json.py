@@ -149,7 +149,7 @@ def main():
         lines.append(to_markdown_table(installed_software[name]))
 
     with open("output/installed_software.md", "w") as f:
-        f.writelines(lines)
+        f.write("\n".join(lines))
 
 
 if __name__ == "__main__":
