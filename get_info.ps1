@@ -43,19 +43,14 @@ function Get-Specs {
 
     # Get all properties
     $full = Get-ComputerInfo
-    # select the key properties we care about
-    $important = $full | Select-Object -Property OsName, OsVersion, OsStatus, `
-        LogonServer, OsRegisteredUser, OsTotalVisibleMemorySize, CsProcessors
 
     # clock speed isn't reported by Get-Computer info
     $clock_speed = Get-WmiObject -Class Win32_Processor -ComputerName. `
     | Select-Object -Property MaxClockSpeed
-    $important | Add-Member -membertype NoteProperty -name ClockSpeed `
-        -value $clock_speed.MaxClockSpeed
     $full | Add-Member -membertype NoteProperty -name ClockSpeed `
         -value $clock_speed.MaxClockSpeed
 
-    return $important, $full
+    return $full
 }
 
 function Get-IPAddresses {
@@ -79,6 +74,8 @@ function Get-IPAddresses {
 
 }
 
+$full = Get-Specs
+
 # where the files will be created
 $output_dir = "computer_information/"
 # use -force flag to allow for already existing directory
@@ -87,19 +84,16 @@ Set-Location $output_dir
 
 # this should be unique and descriptive enough
 $timestamp = get-date -DisplayHint time
-$filename = $full.OsRegisteredUser + $full.LogonServer + $timestamp
+$filename = $full.OsRegisteredUser + "_" + $full.CsName + "_" + $timestamp
 # sanitize it for use as a path -- replace invalid characters with an underscore
 $filename = $filename -replace '[<>:"/\\|?*]', '_'
 
-$important, $full = Get-Specs
+
 
 # I decided to output everything as JSON, then later we can pull out
 # whatever's relevant.
 $json_output = [PSCustomObject]@{
-    specs              = [PSCustomObject]@{
-        simple = $important
-        full   = $full
-    }
+    specs              = $full
     networking         = Get-IPAddresses
     installed_software = Get-InstalledPrograms  $env:COMPUTERNAME
 }
