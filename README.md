@@ -3,7 +3,7 @@
 
 Currently, the bulk of the information comes from the PowerShell built-in `Get-ComputerInfo`. A notable missing piece is the registration status of Windows; I thought the `OsStatus` field was the registration status, but I was wrong.
 
-The script also collects a list of installed programs, for which I adapted [this script](https://devblogs.microsoft.com/scripting/use-powershell-to-quickly-find-installed-software/). 
+The script also collects a list of installed programs, for which I adapted [this script](https://devblogs.microsoft.com/scripting/use-powershell-to-quickly-find-installed-software/). I'm realizing as I write this that the list isn't complete; Google Chrome is an obvious omission. I'll look into why that is and if I need to combine strategies to get a more complete list.  
 
 I ran this on all four laser-room PCs, as well as the PC to the left of the Mac. I didn't check the Mac yet (I'll put together a shell script for that later). The PC on the right was having problems when I was there; the mouse wasn't working, and keyboard navigation got me as far as running the script, but there was an error of some kind and I didn't bother trying to debug it. 
 
